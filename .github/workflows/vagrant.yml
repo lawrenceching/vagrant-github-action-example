@@ -45,5 +45,5 @@ jobs:
     - name: test
       run: |
         vagrant up
-        vagrant ssh -c "sudo apt-get install htop"
+        vagrant ssh -c "sudo apt-get install htop -y"
         vagrant destroy -f
